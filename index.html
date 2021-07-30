@@ -3,35 +3,70 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Alura Barbear</title>
-		<link rel="stylesheet" href="style.css">
+		
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="home.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">		
 	</head>
 
 	<body>
-		<header>
-			<h1 class="titulo-principal">Alura Barbear</h1>
+		<header>			
+			<div class="caixa">
+				<h1><img src="logo.png"alt="Logo da Barbearia Alura"></h1>
+				<nav>
+					<ul style="display:inline">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>			
 		</header>
-		<img id="banner" src="banner.jpg">
-		<div class="principal">
-			<h2 class="titulo-centralizado">Sobre a Alura Barbear</h2>
-	 
-			<p>Located in the heart of the city <strong>Alura Barbear</strong> brings to the market the best for your hair an beard. Founded in 2019, Alura Barbear is already a highlight in the city and conquers new customers every day</p>
+		<img class="banner" src="banner.jpg">
+		<main>
+			<section>
+				<div class="principal">
+					<h2 class="titulo-principal">Sobre a Alura Barbear</h2>
+					<img class="utensilios" src="utensilios.jpg" alt="Utensílios de um barbeiro." />
+					<p>Located in the heart of the city <strong>Alura Barbear</strong> brings to the market the best for your hair an beard. Founded in 2019, Alura Barbear is already a highlight in the city and conquers new customers every day</p>
+		
+					<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+		
+					<p>We offer experienced proffessionals and attuned to changes in the fashion world. The service has a standard of excellence and agility and satisfaction of our customers.</p>
+				</div>
+			</section>
 
-			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+			<section>
+				<section class="mapa">
+					<h3 class="titulo-principal">"Nosso estabelecimento</h3>
+					<p>Noss estabelecimento está localizado no coração da cidade.</p>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.350794116469!2d-43.97147912359586!3d-19.866777756449412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690f71348ff6d%3A0x35b9453242d27588!2zTWluZWlyw6Nv!5e0!3m2!1spt-PT!2sbr!4v1627612636112!5m2!1spt-PT!2sbr" width=100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>			</section>
 
-			<p>We offer experienced proffessionals and attuned to changes in the fashion world. The service has a standard of excellence and agility and satisfaction of our customers.</p>
-		</div>
 
-		<div class="beneficios">
-			<h3 class="titulo-centralizado">Advantage</h3>
-
-			<ul>
-				<li class="itens">Customer Service</li>
-				<li class="itens">Differentiated space</li>
-				<li class="itens">Location</li>
-				<li class="itens">Qualified Professionals</li>
-			</ul>
-
-			<img src="beneficios.jpg" class="imagembeneficios">
-		</div>
+			<section>			
+				<div class="beneficios">
+					<h3 class="titulo-principal">Advantage</h3>
+					<div class="conteudo-beneficios">
+						<ul class="lista-beneficios">
+							<li class="itens">Atendimento aos Clientes</li>
+							<li class="itens">Espaço diferenciado</li>
+							<li class="itens">Localização</li>
+							<li class="itens">Profissionais Qualificados</li>
+							<li class="itens">Pontualidade</li>
+							<li class="itens">Limpeza</li>
+						</ul><img src="beneficios.jpg" class="imagem-beneficios">
+					</div>
+			</section>
+			<div class="video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+	</main>
+		<footer>
+			<img src="logo-branco.png">
+			<p class="copyright">&copy; Copyright Alura Barber - 2019</p>
+		</footer>
 	</body>
 </html>
