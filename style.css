@@ -2,13 +2,14 @@
 	width:100%;
 }
 
-.principal{
+/* .principal{
 	background: #CCCCCC;
 	padding: 30px;
-}
+} */
 
 .titulo-principal {
 	padding-left: 20px;
+	font-weight: bold;
 }
 
 .titulo-centralizado {
@@ -17,6 +18,7 @@
 
 p {
 	text-align: center;
+	color:black;
 }
 
 #missao {
@@ -32,11 +34,6 @@ em strong {
 	line-height: 1.5;
 }
 
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
-}
-
 ul {
 	display: inline-block;
 	vertical-align: top;
@@ -45,8 +42,7 @@ ul {
 }
 
 main{
-	width:940px;
-	margin:0 auto;
+	
 }
 form{
 	margin:40px 0;

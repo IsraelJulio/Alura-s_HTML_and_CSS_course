@@ -12,6 +12,12 @@ header {
     margin: 0 0 1em;
     clear: left;
 }
+.principal {
+    padding: 3em 0;
+    backgroud: #FEFEFE;
+    width:940px;
+	margin:0 auto;
+} 
 .principal p {
     margin: 0 0 1em;
 }
@@ -27,9 +33,7 @@ header {
     float: left;
     margin: 0 20px 20px 0;
 }
-.mapa {
-    padding: 3em 0;
-}
+
 
 .mapa p {
     margin: 0 0 2em;
@@ -37,7 +41,7 @@ header {
 }
 
 .conteudo-beneficios {
-    width: 640px;
+    width: 740px;
     margin: 0 auto;
 }
 
@@ -53,6 +57,7 @@ header {
 }
 .beneficios {
     padding: 3em 0;
+    background-color: #888888;
 }
 .itens:first-child {
     font-weight: bold;
@@ -60,9 +65,19 @@ header {
 .imagem-beneficios {
 	width: 50%;
 }
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
 
-
-
+}
+.mapa {
+    padding: 3em 0;
+   
+    background: linear-gradient(#FEFEFE, #888888);
+}
+.itens:before {
+    content: "✭ "
+}
 
 
 
