@@ -63,7 +63,14 @@ header {
     font-weight: bold;
 }
 .imagem-beneficios {
-	width: 50%;
+    width: 50%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
 }
 .mapa-conteudo {
     width: 940px;
@@ -79,9 +86,17 @@ header {
     content: "✭ "
 }
 
-
-
-
+@media screen and (max-width: 480px) { 
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+}
+/* h1 {
+    text-align: center;
+} */
+nav {
+    position:static;
+}
 
 
 
